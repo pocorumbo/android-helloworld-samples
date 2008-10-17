@@ -1,0 +1,24 @@
+<html>
+<head></head>
+<body ></body>
+<table><tr>
+<td padding = "20px">
+<h3>Simple Activity with layout defined in xml </h3>
+
+<p> In the previous sample app, we defined our layout in the java file itself because our layout was very simple. 
+But most of the times our layouts won't be that simple, and defining them in xml would be easier. This sample app shows just how to do that.
+</p>
+<p>
+Check out the layout declaration for our HelloActivity in the main.xml file. We define the same TextView as before, within a LinearLayout. 
+LinearLayout is a layout container, 
+there are many layout containers like RelativeLayout, TableLayout, FrameLayout, etc. As the name suggests they are used to hold other Views in your UI.
+</p>
+
+<p> As before, we set the layout defined in main.xml to HelloActivity's window by calling setContentView(). The only difference, is the argument passed to 
+setContentView() -- R.layout.main -- this is the auto generated id for our layout file on compilation.
+</p>
+<p>To read more about Views and layouts <a href = "http://code.google.com/android/devel/implementing-ui.html">
+click here </a>.
+</p>
+</td>
+</html>
