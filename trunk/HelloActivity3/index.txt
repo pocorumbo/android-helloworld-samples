@@ -1,0 +1,4 @@
+HelloActivity3/src/com/android/example/helloworld/HelloActivity.java
+HelloActivity3/res/layout/main.xml
+HelloActivity3/res/values/strings.xml
+HelloActivity3/AndroidManifest.xml
