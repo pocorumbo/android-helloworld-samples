@@ -2,16 +2,20 @@
 <head></head>
 <body></body>
 <h3>Simple Activity </h3>
-<p> This sample code shows how to create a very basic application with a single Activity. Activity is the 
-visible component of your application ie. it is what the user interacts with. 
-Every activity should be declared inside the AndroidManifest.xml file with <activity> tag. 
+<p> This sample code shows how to create a very basic application with a single Activity, we will call it HelloActivity.
+Activity is the visible component of an application ie. it is what the user interacts with. 
+Every activity is declared inside the AndroidManifest.xml file with an <activity> tag. 
 Click the AndroidManifest.xml tab to see the declaration of our HelloActivity. 
-Next, we define HelloActivity by subclassing Activity class in HelloActivity1.java. 
+Our HelloActivity is defined in HelloActivity1.java by extending the Activity class. 
 </p>
 <p>
-Every Activity has UI, for this app we create a Textbox in our Java file. It is recommended to create
-layouts in xml but we will get to it in the next sample. For now to keep things simple, we creating 
-our UI in the Java file itself. Then, we set our UI in Activity's window by using setContentView().
+Every Activity has UI, for our HelloActivity we create a TextView in our Java file. Generally, is recommended to create
+layouts in xml but we will get to it in the next sample. For now to keep things simple, we are defining 
+our UI in the Java file itself. The UI elements in Android framework are known to as Views. 
+We will set our UI in Activity's window by using setContentView().
+</p>
+<p>To read more about Activity <a href = "http://code.google.com/android/reference/android/app/Activity.html">
+click here </a>.
 </p>
 
 </html>
