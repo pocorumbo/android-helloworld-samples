@@ -1,0 +1,11 @@
+#remove /bin, R.java
+rm -rf $1/bin
+find $1 -name R.java | xargs rm
+
+#create sourcecode zip 
+zip -r $1.zip $1/
+mv $1.zip $1/
+
+#create index file (needed for samplecode viewer)
+find $1 -name *.java > $1/index.txt
+find $1 -name *.xml >> $1/index.txt
