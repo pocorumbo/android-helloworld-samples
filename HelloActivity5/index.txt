@@ -1,0 +1,6 @@
+HelloActivity5/src/com/android/example/helloworld/SendResult.java
+HelloActivity5/src/com/android/example/helloworld/ReceiveResult.java
+HelloActivity5/res/layout/receive_result.xml
+HelloActivity5/res/layout/send_result.xml
+HelloActivity5/res/values/strings.xml
+HelloActivity5/AndroidManifest.xml
