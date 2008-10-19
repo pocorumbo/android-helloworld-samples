@@ -37,11 +37,14 @@ public class HelloActivity extends Activity {
         setContentView(R.layout.main);
         
         TextView tx = (TextView)findViewById(R.id.hellotxt);
-        tx.setText("1) Press the back button then launch this application." +
-        		"2)Press the home button then launch this application. " +
-        		"3)Change the orientation." +
-        		" Check Logs to see the sequence of lifecycle callbacks " +
-        		"trigerred by these actions.");
+        tx.setText("\nLets do the following actions to trigger lifecyle events. (" +
+            "Keep checking logs simultaneously to see the sequence of lifecycle callbacks " +
+            "trigerred by these actions.)\n\n" +
+        		"1) Press the back button, then re-launch this application.\n" +
+        		"2)Press the home button , then re-launch this application.\n" +
+        		"3)Change the orientation then change it back again.\n" +
+        		"4)Press the call button then press back button"
+        		);
     }
 
     @Override
