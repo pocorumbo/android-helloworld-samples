@@ -23,8 +23,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * A "Hello, World!" application demonstrating how to start other Activities
- * from an Activity.
+ * An application demonstrating Activity's lifecycle event callbacks.
  */
 public class HelloActivity extends Activity {
   
