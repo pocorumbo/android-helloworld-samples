@@ -3,3 +3,4 @@ HelloActivity2
 HelloActivity3
 HelloActivity4
 HelloActivity5
+HelloActivity6
