@@ -1,0 +1,7 @@
+HelloActivity8/src/com/android/example/helloworld/HelloActivityWithStateSaved.java
+HelloActivity8/src/com/android/example/helloworld/HelloActivityWithoutStateSaved.java
+HelloActivity8/src/com/android/example/helloworld/HelloLauncherActivity.java
+HelloActivity8/res/values/strings.xml
+HelloActivity8/res/layout/launcher.xml
+HelloActivity8/res/layout/main.xml
+HelloActivity8/AndroidManifest.xml
