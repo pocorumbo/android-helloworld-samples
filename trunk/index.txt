@@ -3,6 +3,7 @@ HelloActivity2
 HelloActivity3
 HelloActivity4
 HelloActivity5
+HelloService
 HelloActivity6
 HelloActivity7
 HelloMenus
