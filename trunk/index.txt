@@ -5,4 +5,6 @@ HelloActivity4
 HelloActivity5
 HelloActivity6
 HelloActivity7
+HelloMenus
 HelloActivity8
+Notepadv3
