@@ -15,10 +15,21 @@
  * limitations under the License.
  -->
 
-<resources>
-    <string name="app_name">HelloActivity8</string>
-    <string name="zip">Enter zipcode and change orientation. Check 
-    if the zipcode you entered is still there!</string>
-    <string name="launchactivitywithstatesaved">Launch Activity With State Saved</string>
-    <string name="launchactivitywithnostatesaved">Launch Activity Without State Saved</string>
-</resources>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.example.helloworld"
+      android:versionCode="1"
+      android:versionName="1.0.0">
+      
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    
+        <activity android:name=".HelloMenu"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+               	
+    </application>
+
+</manifest> 

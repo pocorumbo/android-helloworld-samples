@@ -16,9 +16,8 @@
  -->
 
 <resources>
-    <string name="app_name">HelloActivity8</string>
-    <string name="zip">Enter zipcode and change orientation. Check 
-    if the zipcode you entered is still there!</string>
-    <string name="launchactivitywithstatesaved">Launch Activity With State Saved</string>
-    <string name="launchactivitywithnostatesaved">Launch Activity Without State Saved</string>
+    <string name="app_name">HelloMenus</string>
+    <string name="menu">\nClick the Menu button on your emulator/device.</string>
+    <string name="menu_item1">Item1</string>
+    <string name="menu_item2">Item2</string>
 </resources>

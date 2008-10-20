@@ -1,0 +1,4 @@
+HelloMenus/src/com/android/example/helloworld/HelloMenu.java
+HelloMenus/res/values/strings.xml
+HelloMenus/res/layout/main.xml
+HelloMenus/AndroidManifest.xml
