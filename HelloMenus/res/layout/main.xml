@@ -15,10 +15,17 @@
  * limitations under the License.
  -->
 
-<resources>
-    <string name="app_name">HelloActivity8</string>
-    <string name="zip">Enter zipcode and change orientation. Check 
-    if the zipcode you entered is still there!</string>
-    <string name="launchactivitywithstatesaved">Launch Activity With State Saved</string>
-    <string name="launchactivitywithnostatesaved">Launch Activity Without State Saved</string>
-</resources>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <TextView  
+        android:id = "@+id/menutxt"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text = "@string/menu"        
+        />
+    
+</LinearLayout>

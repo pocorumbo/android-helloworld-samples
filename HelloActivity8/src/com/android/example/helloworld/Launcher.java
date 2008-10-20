@@ -48,7 +48,7 @@ public class Launcher extends Activity {
           public void onClick(View v) {
             // TODO Auto-generated method stub
             Intent mIntent = new Intent();
-            mIntent.setClass(Launcher.this, StateSaved.class);
+            mIntent.setClass(Launcher.this, StateNotSaved.class);
             startActivity(mIntent);            
           }          
         });
@@ -57,7 +57,7 @@ public class Launcher extends Activity {
           public void onClick(View v) {
             // TODO Auto-generated method stub
             Intent mIntent = new Intent();
-            mIntent.setClass(Launcher.this, StateNotSaved.class);
+            mIntent.setClass(Launcher.this, StateSaved.class);
             startActivity(mIntent);            
           }          
         });

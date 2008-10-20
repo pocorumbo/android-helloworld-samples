@@ -18,25 +18,46 @@ package com.android.example.helloworld;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.EditText;
 
 /**
- * This Activity provides the default behavior
+ * An application demonstrating how to save per instance state before the
+ * Activity is destroyed.
  */
 public class StateSaved extends Activity {
   
     private static String TAG = "HelloActivity";
+    
+    private EditText mText;
+    
+    private String mZip;
+    
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // Set content layout
+     // Set content layout
         setContentView(R.layout.main);
+        
+        mText = (EditText)findViewById(R.id.zip);        
+        
+        // If the Activity was destroyed and restarted, restore its state saved
+        // using onSaveInstaceState() earlier. This state can also be restored in
+        // onRestoreInstanceState() instead of here in onCreate().
+        mZip=  savedInstanceState != null ? savedInstanceState.getString("zip") : null;
+        
+        mText.setText(mZip);       
         
     }
 
-    
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        
+        // TODO Auto-generated method stub
+        super.onSaveInstanceState(outState);
+        // Store state which persists even if this Activity gets destroyed.
+        outState.putString("zip", mText.getText().toString());
+       
+    }
     
 }
