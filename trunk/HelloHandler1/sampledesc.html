@@ -1,0 +1,34 @@
+<html>
+<head></head>
+<body ></body>
+<table><tr>
+<td padding = "20px">
+<h3>Handler to communicate between threads</h3>
+
+<p> 
+In Android applications is not uncommon to create threads that perform time consuming tasks. 
+By doing so we 
+avoid latency in the main UI thread. But how do we communicate back to the UI thread
+from these other threads? The Handler comes in handy in such situations.
+A Handler allows you to send and process Message and Runnable objects associated with 
+a thread's MessageQueue. 
+Each Handler instance is associated with a single thread and that thread's message queue.
+
+</p>
+<p>
+ When we create a new Handler, it is bound to the 
+thread / message queue of the thread that is creating it. We can pass this Handler object to 
+other threads so that they can post back messages to the messagequeue of the thread in which
+this handler was originally created.In this sample application we are using a Handler object 
+to communicate from
+a user defined thread back to the main UI thread.
+</p>
+
+</p>
+<p>
+</p>
+<p>To read more about Handlers  <a href = "reference/android/os/Handler.html" target="_top">
+click here </a>.
+</p>
+</td>
+</html>
