@@ -1,3 +1,2 @@
 HelloActivity1/src/com/android/example/helloworld/HelloActivity.java
 HelloActivity1/res/values/strings.xml
-HelloActivity1/AndroidManifest.xml

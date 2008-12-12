@@ -1,3 +1,2 @@
 HelloActivity2/src/com/android/example/helloworld/HelloActivity.java
 HelloActivity2/res/layout/main.xml
-HelloActivity2/AndroidManifest.xml
