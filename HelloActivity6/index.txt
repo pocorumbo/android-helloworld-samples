@@ -2,4 +2,3 @@ HelloActivity6/src/com/android/example/helloworld/HelloActivity.java
 HelloActivity6/src/com/android/example/helloworld/HelloAnotherActivity.java
 HelloActivity6/res/values/strings.xml
 HelloActivity6/res/layout/main.xml
-HelloActivity6/AndroidManifest.xml

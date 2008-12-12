@@ -2,4 +2,3 @@ HelloService/src/com/android/example/helloworld/HelloActivity.java
 HelloService/src/com/android/example/helloworld/HelloService.java
 HelloService/res/values/strings.xml
 HelloService/res/layout/main.xml
-HelloService/AndroidManifest.xml

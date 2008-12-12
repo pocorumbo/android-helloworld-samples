@@ -1,4 +1,3 @@
 HelloActivity7/src/com/android/example/helloworld/HelloActivity.java
 HelloActivity7/res/values/strings.xml
 HelloActivity7/res/layout/main.xml
-HelloActivity7/AndroidManifest.xml

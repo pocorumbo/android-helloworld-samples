@@ -1,7 +1,6 @@
 Notepadv3/src/com/android/demo/notepad3/NoteEdit.java
 Notepadv3/src/com/android/demo/notepad3/Notepadv3.java
 Notepadv3/src/com/android/demo/notepad3/NotesDbAdapter.java
-Notepadv3/AndroidManifest.xml
 Notepadv3/res/layout/note_edit.xml
 Notepadv3/res/layout/notes_list.xml
 Notepadv3/res/layout/notes_row.xml
