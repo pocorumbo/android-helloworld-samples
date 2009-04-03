@@ -1,0 +1,27 @@
+{ "Activity" : {  "HelloActivity1" : "Hello Activity",
+                  "HelloActivity2" : "Using layout xml",
+		  "HelloActivity3" : "Using String resources",
+		  "HelloActivity4" : "Launching another Activity",
+		  "HelloActivity5" : "Getting results",		  
+		  "HelloActivity6" : "Passing data",
+		  "HelloActivity7" : "Lifecycle events",
+		  "HelloActivity8" : "Saving per-instance state",
+		  "Notepadv3"      : "Saving global state",
+		  
+	       },
+	       
+  "Service"  : {  "HelloService"   : "Hello Service",
+               },
+	       
+  "Menus"    : {  "HelloMenus"     : "Hello Menus",
+               },
+	       
+  "Handlers" : {  "HelloHandler1"  : "Hello Handlers",
+               },
+	       
+}	       
+	         	       
+	       
+                   
+		
+		  
