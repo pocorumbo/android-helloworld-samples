@@ -1,25 +1,45 @@
-{ "Activity" : {  "HelloActivity1" : "Hello Activity",
-                  "HelloActivity2" : "Using layout xml",
-		  "HelloActivity3" : "Using String resources",
-		  "HelloActivity4" : "Launching another Activity",
-		  "HelloActivity5" : "Getting results",		  
-		  "HelloActivity6" : "Passing data",
-		  "HelloActivity7" : "Lifecycle events",
-		  "HelloActivity8" : "Saving per-instance state",
-		  "Notepadv3"      : "Saving global state",
+[{ section: "Activity", 
+   items  : [   { dir: "HelloActivity1",
+                  title : "Hello Activity" },
+                { dir: "HelloActivity2",
+		  title : "Using layout xml"},
+		{ dir: "HelloActivity3",
+		  title : "Using String resources" },
+		{ dir: "HelloActivity4",
+		  title : "Launching another Activity" },
+		{ dir: "HelloActivity5",
+		  title : "Getting results" },		  
+		{ dir: "HelloActivity6",
+		  title : "Passing data" },
+		{ dir: "HelloActivity7",
+		  title : "Lifecycle events" },
+		{ dir: "HelloActivity8",
+		  title : "Saving per-instance state" },
+		{ dir: "Notepadv3" ,
+		  title     : "Saving global state" }
 		  
-	       },
+	     ]
+ },
 	       
-  "Service"  : {  "HelloService"   : "Hello Service",
-               },
+ { section: "Service",
+   items  : [   { dir:  "HelloService",
+                  title   : "Hello Service" },
+            ]
+ },
 	       
-  "Menus"    : {  "HelloMenus"     : "Hello Menus",
-               },
+ { section: "Menus",
+   items    : [ {  dir: "HelloMenus" ,
+                   title: "Hello Menus" },
+              ]
+ },
 	       
-  "Handlers" : {  "HelloHandler1"  : "Hello Handlers",
-               },
+ { section: "Handlers",
+   items    : [ {  dir:  "HelloHandler1",
+                   title  : "Hello Handlers" },
+              ]
 	       
-}	       
+ }
+]	       
 	         	       
 	       
                    
