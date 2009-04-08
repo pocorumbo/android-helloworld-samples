@@ -1,0 +1,47 @@
+[{ section: "Activity", 
+   items  : [   { dir: "HelloActivity1",
+                  title : "Hello Activity" },
+                { dir: "HelloActivity2",
+		  title : "Using layout xml"},
+		{ dir: "HelloActivity3",
+		  title : "Using String resources" },
+		{ dir: "HelloActivity4",
+		  title : "Launching another Activity" },
+		{ dir: "HelloActivity5",
+		  title : "Getting results" },		  
+		{ dir: "HelloActivity6",
+		  title : "Passing data" },
+		{ dir: "HelloActivity7",
+		  title : "Lifecycle events" },
+		{ dir: "HelloActivity8",
+		  title : "Saving per-instance state" },
+		{ dir: "Notepadv3" ,
+		  title     : "Saving global state" }
+		  
+	     ]
+ },
+	       
+ { section: "Service",
+   items  : [   { dir:  "HelloService",
+                  title   : "Hello Service" },
+            ]
+ },
+	       
+ { section: "Menus",
+   items    : [ {  dir: "HelloMenus" ,
+                   title: "Hello Menus" },
+              ]
+ },
+	       
+ { section: "Handlers",
+   items    : [ {  dir:  "HelloHandler1",
+                   title  : "Hello Handlers" },
+              ]
+	       
+ }
+]	       
+	         	       
+	       
+                   
+		
+		  
