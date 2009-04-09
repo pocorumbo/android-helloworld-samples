@@ -1,0 +1,30 @@
+[{ section: "Activity", 
+   items  : [   { dir: "HelloActivity1",
+                  title : "Hello Activity",
+		  files: ["src/com/android/example/helloworld/HelloActivity.java",
+                          "res/values/strings.xml" 
+			 ]
+		  
+		},              
+		  
+	     ]
+ },     
+ 
+	       
+ { section: "Handlers",
+   items    : [ {  dir:  "HelloHandler1",
+                   title  : "Hello Handlers",
+		   files: ["src/com/android/example/helloworld/HelloHandlerActivity.java",
+                           "res/values/strings.xml",
+                           "res/layout/main.xml"
+		          ]
+		},
+              ]
+	       
+ }
+]	       
+	         	       
+	       
+                   
+		
+		  
