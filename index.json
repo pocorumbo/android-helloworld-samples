@@ -4,7 +4,7 @@
 		  files: ["src/com/android/example/helloworld/HelloActivity.java",
                           "res/values/strings.xml" 
 			 ]
-		  desc: "
+		  
 		},
                 { dir: "HelloActivity2",
 		  title : "Using layout xml",
