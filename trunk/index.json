@@ -104,19 +104,19 @@
    items    : [ {  dir: "ApiDemos" ,
                    title: "Dialog Activity", 
 		   files: ["src/com/example/android/apis/app/DialogActivity.java",
-                           "/res/any/layout/dialog_activity.xml",                          
+                           "res/any/layout/dialog_activity.xml",                          
 		          ]
 		},
                 {  dir: "ApiDemos" ,
                    title: "Custom Dialog Activity", 
 		   files: ["src/com/example/android/apis/app/CustomDialogActivity.java",
-                           "/res/any/layout/custom_dialog_activity.xml",                          
+                           "res/any/layout/custom_dialog_activity.xml",                          
 		          ]
 		},
                 {  dir: "ApiDemos" ,
                    title: "Various AlertDialogs", 
 		   files: ["src/com/example/android/apis/app/AlertDialogSamples.java",
-                           "/res/any/layout/alert_dialog.xml",                          
+                           "res/any/layout/alert_dialog.xml",                          
 		          ]
 		},
               ]
@@ -128,8 +128,8 @@
                    title: "Hello Notifications", 
 		   files: ["src/com/example/android/apis/app/IncomingMessage.java",
 		           "src/com/example/android/apis/app/IncomingMessageView.java",
-                           "/res/any/layout/incoming_message.xml",
-			   "/res/any/layout/incoming_message_view.xml",                          
+                           "res/any/layout/incoming_message.xml",
+			   "res/any/layout/incoming_message_view.xml",                          
 		          ]
 		},
                
@@ -173,7 +173,7 @@
 		   files: ["src/com/example/android/apis/app/AlarmController.java",
                            "src/com/example/android/apis/app/OneShotAlarm.java", 
 			   "src/com/example/android/apis/app/RepeatingAlarm.java",
-			   "/res/any/layout/alarm_controller.xml",                          
+			   "res/any/layout/alarm_controller.xml",                          
 		          ]
 		},
 		{  dir:  "ApiDemos",
