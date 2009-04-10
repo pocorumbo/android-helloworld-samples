@@ -1,0 +1,140 @@
+[{ section: "Activity", 
+   items  : [   { dir: "HelloActivity1",
+                  title : "Hello Activity",
+		  files: ["src/com/android/example/helloworld/HelloActivity.java",
+                          "res/values/strings.xml" 
+			 ]
+		  
+		},
+                { dir: "HelloActivity2",
+		  title : "Using layout xml",
+		  files: ["src/com/android/example/helloworld/HelloActivity.java",
+                          "res/layout/main.xml" 
+			 ]
+		},
+		{ dir: "HelloActivity3",
+		  title : "Using String resources",
+		  files: ["src/com/android/example/helloworld/HelloActivity.java",
+                          "res/layout/main.xml",
+                          "res/values/strings.xml"
+		         ] 
+		},
+		{ dir: "HelloActivity4",
+		  title : "Launching another Activity",
+		  files: ["src/com/android/example/helloworld/HelloActivity.java",
+                          "src/com/android/example/helloworld/HelloAnotherActivity.java",
+                          "res/layout/main.xml",
+                          "res/values/strings.xml"
+		         ]
+	        },
+		{ dir: "HelloActivity5",
+		  title : "Getting results",
+		  files: ["src/com/android/example/helloworld/SendResult.java",
+                          "src/com/android/example/helloworld/ReceiveResult.java",
+                          "res/layout/receive_result.xml",
+                          "res/layout/send_result.xml",
+                          "res/values/strings.xml"
+		         ] 
+		},		  
+		{ dir: "HelloActivity6",
+		  title : "Passing data",
+		  files: ["src/com/android/example/helloworld/HelloActivity.java",
+                          "src/com/android/example/helloworld/HelloAnotherActivity.java",
+                          "res/values/strings.xml",
+                          "res/layout/main.xml"
+		         ] 
+		},
+		{ dir: "HelloActivity7",
+		  title : "Lifecycle events",
+		  files: ["src/com/android/example/helloworld/HelloActivity.java",
+                          "res/values/strings.xml",
+                          "res/layout/main.xml"
+		         ]
+	        },
+		{ dir: "HelloActivity8",
+		  title : "Saving per-instance state",
+		  files: ["src/com/android/example/helloworld/StateSaved.java",
+                          "src/com/android/example/helloworld/Launcher.java",
+                          "src/com/android/example/helloworld/StateNotSaved.java",
+                          "res/values/strings.xml",
+                          "res/layout/launcher.xml",
+                          "res/layout/main.xml"
+		         ]
+	        },
+		{ dir: "Notepadv3" ,
+		  title     : "Saving global state",
+		  files: ["src/com/android/demo/notepad3/NoteEdit.java",
+                          "src/com/android/demo/notepad3/Notepadv3.java",
+			  "src/com/android/demo/notepad3/NotesDbAdapter.java",
+			  "res/layout/note_edit.xml",
+			  "res/layout/notes_list.xml",
+			  "res/layout/notes_row.xml",
+			  "res/values/strings.xml"
+		         ]
+	        }
+		  
+	     ]
+ },
+	       
+ { section: "Service",
+   items  : [   { dir:  "HelloService",
+                  title   : "Hello Service",
+		  files: ["src/com/android/example/helloworld/HelloActivity.java",
+                          "src/com/android/example/helloworld/HelloService.java",
+                          "res/values/strings.xml",
+                          "res/layout/main.xml"
+		         ] 
+		},
+            ]
+ },
+	       
+ { section: "Menus",
+   items    : [ {  dir: "HelloMenus" ,
+                   title: "Hello Menus", 
+		   files: ["src/com/android/example/helloworld/HelloMenu.java",
+                           "res/values/strings.xml",
+                           "res/layout/main.xml"
+		          ]
+		},
+              ]
+ },
+	       
+ { section: "Handlers",
+   items    : [ {  dir:  "HelloHandler1",
+                   title  : "Hello Handlers",
+		   files: ["src/com/android/example/helloworld/HelloHandlerActivity.java",
+                           "res/values/strings.xml",
+                           "res/layout/main.xml"
+		          ]
+		},
+              ]
+	       
+ }
+ { section: "User Preferences",
+   items    : [ 
+                {  dir:  "ApiDemos",
+                   title  : "Advanced Preferences",
+		   files: ["src/com/example/android/apis/app/AdvancedPreferences.java",
+                           "res/xml/advanced_preferences.xml",                           
+		          ]
+		},
+              ]
+	       
+ }
+ { section: "Timed Events",
+   items    : [ 
+                {  dir:  "ApiDemos",
+                   title  : "Advanced Preferences",
+		   files: ["src/com/example/android/apis/app/AdvancedPreferences.java",
+                           "res/xml/advanced_preferences.xml",                           
+		          ]
+		},
+              ]
+	       
+ }
+]	       
+	         	       
+	       
+                   
+		
+		  
