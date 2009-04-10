@@ -99,7 +99,7 @@
               ]
  },
 	       
- { section: "Handlers",
+ { section: "Threads and Handlers",
    items    : [ {  dir:  "HelloHandler1",
                    title  : "Hello Handlers",
 		   files: ["src/com/android/example/helloworld/HelloHandlerActivity.java",
@@ -116,6 +116,25 @@
                    title  : "Advanced Preferences",
 		   files: ["src/com/example/android/apis/app/AdvancedPreferences.java",
                            "res/xml/advanced_preferences.xml",                           
+		          ]
+		},
+              ]
+	       
+ },
+ { section: "Timed Events",
+   items    : [ 
+                {  dir:  "ApiDemos",
+                   title  : "One-shot and repeating Alarms",
+		   files: ["src/com.example.android.apis/app/AlarmController.java",
+                           "src/com.example.android.apis/app/OneShotAlarm.java", 
+			   "src/com.example.android.apis/app/RepeatingAlarm.java",
+			   "/res/any/layout/alarm_controller.xml",                          
+		          ]
+		},
+		{  dir:  "ApiDemos",
+                   title  : "Timed Service Invocation",
+		   files: ["src/com.example.android.apis/app/AlarmService.java",
+                           "src/com.example.android.apis/app/AlarmService_Service.java", 
 		          ]
 		},
               ]
