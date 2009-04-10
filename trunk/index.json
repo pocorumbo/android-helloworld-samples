@@ -98,6 +98,43 @@
 		},
               ]
  },
+ 
+ { section: "Dialogs",
+ 
+   items    : [ {  dir: "ApiDemos" ,
+                   title: "Dialog Activity", 
+		   files: ["src/com/example/android/apis/app/DialogActivity.java",
+                           "/res/any/layout/dialog_activity.xml",                          
+		          ]
+		},
+                {  dir: "ApiDemos" ,
+                   title: "Custom Dialog Activity", 
+		   files: ["src/com/example/android/apis/app/CustomDialogActivity.java",
+                           "/res/any/layout/custom_dialog_activity.xml",                          
+		          ]
+		},
+                {  dir: "ApiDemos" ,
+                   title: "Various AlertDialogs", 
+		   files: ["src/com/example/android/apis/app/AlertDialogSamples.java",
+                           "/res/any/layout/alert_dialog.xml",                          
+		          ]
+		},
+              ]
+ },
+ 
+ { section: "Notifications",
+ 
+   items    : [ {  dir: "ApiDemos" ,
+                   title: "Hello Notifications", 
+		   files: ["src/com/example/android/apis/app/IncomingMessage.java",
+		           "src/com/example/android/apis/app/IncomingMessageView.java",
+                           "/res/any/layout/incoming_message.xml",
+			   "/res/any/layout/incoming_message_view.xml",                          
+		          ]
+		},
+               
+              ]
+ },
 	       
  { section: "Threads and Handlers",
    items    : [ {  dir:  "HelloHandler1",
@@ -111,17 +148,25 @@
 	       
  } ,
  { section: "User Preferences",
+ 
    items    : [ 
                 {  dir:  "ApiDemos",
+                   title  : "Setting Default Values",
+		   files: ["src/com/example/android/apis/app/DefaultValues.java",
+                           "res/xml/default_values.xml",                           
+		          ]
+		},
+                {  dir:  "ApiDemos",
                    title  : "Advanced Preferences",
-		   files: ["src/com/example/android/apis/app/AdvancedPreferences.java",
+		   files: ["src/com/example/android/apis/app/LaunchingPreferences.java",
+		           "src/com/example/android/apis/app/AdvancedPreferences.java",
                            "res/xml/advanced_preferences.xml",                           
 		          ]
 		},
               ]
 	       
  },
- { section: "Timed Events",
+ { section: "Timing Operations",
    items    : [ 
                 {  dir:  "ApiDemos",
                    title  : "One-shot and repeating Alarms",
