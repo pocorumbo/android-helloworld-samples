@@ -109,7 +109,7 @@
 		},
               ]
 	       
- }
+ },
  { section: "User Preferences",
    items    : [ 
                 {  dir:  "ApiDemos",
@@ -120,7 +120,7 @@
 		},
               ]
 	       
- }
+ },
  { section: "Timed Events",
    items    : [ 
                 {  dir:  "ApiDemos",
