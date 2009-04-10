@@ -121,17 +121,7 @@
               ]
 	       
  },
- { section: "Timed Events",
-   items    : [ 
-                {  dir:  "ApiDemos",
-                   title  : "Advanced Preferences",
-		   files: ["src/com/example/android/apis/app/AdvancedPreferences.java",
-                           "res/xml/advanced_preferences.xml",                           
-		          ]
-		},
-              ]
-	       
- }
+ 
 ]	       
 	         	       
 	       
