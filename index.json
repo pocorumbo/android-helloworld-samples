@@ -226,6 +226,92 @@
               ]
 	       
  },
+ { section: "Animations",
+   items    : [ 
+                {  dir:  "ApiDemos",
+                   title  : "Shake",
+		   files: ["src/com/example/android/apis/view/Animation1.java",                           
+			   "res/layout/animation_1.xml",                          
+		          ]
+		},
+		{  dir:  "ApiDemos",
+                   title  : "Push",
+		   files: ["src/com/example/android/apis/view/Animation2.java",                           
+			   "res/layout/animation_2.xml",
+		          ]
+		},
+		
+              ]
+	       
+ },
+ { section: "Layout Animations",
+   items    : [ 
+                {  dir:  "ApiDemos",
+                   title  : "Grid Fade",
+		   files: ["src/com/example/android/apis/view/LayoutAnimation1.java",                           
+			   "res/layout/layout_animation_1.xml",                          
+		          ]
+		},
+		{  dir:  "ApiDemos",
+                   title  : "List Cascade",
+		   files: ["src/com/example/android/apis/view/LayoutAnimation2.java",                           
+			   "res/layout/layout_animation_2.xml",
+		          ]
+		},
+		{  dir:  "ApiDemos",
+                   title  : "Reverse Order",
+		   files: ["src/com/example/android/apis/view/LayoutAnimation3.java",                           
+			   "res/layout/layout_animation_3.xml",
+		          ]
+		},
+		{  dir:  "ApiDemos",
+                   title  : "Randomize",
+		   files: ["src/com/example/android/apis/view/LayoutAnimation4.java",                           
+			   "res/layout/layout_animation_4.xml",
+		          ]
+		},
+		{  dir:  "ApiDemos",
+                   title  : "Grid Direction",
+		   files: ["src/com/example/android/apis/view/LayoutAnimation5.java",                           
+			   "res/layout/layout_animation_5.xml",
+		          ]
+		},
+		{  dir:  "ApiDemos",
+                   title  : "Wave Scale",
+		   files: ["src/com/example/android/apis/view/LayoutAnimation6.java",                           
+			   "res/layout/layout_animation_6.xml",
+		          ]
+		},
+		{  dir:  "ApiDemos",
+                   title  : "Nested Animations",
+		   files: ["src/com/example/android/apis/view/LayoutAnimation7.java",                           
+			   "res/layout/layout_animation_7.xml",
+		          ]
+		},
+		
+              ]
+	       
+ },
+ { section: "Timing Operations",
+   items    : [ 
+                {  dir:  "ApiDemos",
+                   title  : "One-shot and repeating Alarms",
+		   files: ["src/com/example/android/apis/app/AlarmController.java",
+                           "src/com/example/android/apis/app/OneShotAlarm.java", 
+			   "src/com/example/android/apis/app/RepeatingAlarm.java",
+			   "res/layout/alarm_controller.xml",                          
+		          ]
+		},
+		{  dir:  "ApiDemos",
+                   title  : "Timed Service Invocation",
+		   files: ["src/com/example/android/apis/app/AlarmService.java",
+                           "src/com/example/android/apis/app/AlarmService_Service.java", 
+		          ]
+		},
+              ]
+	       
+ },
+ 
  
 ]	       
 	         	       
