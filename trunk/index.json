@@ -35,6 +35,12 @@
                           "res/layout/send_result.xml",
                           "res/values/strings.xml"
 		         ] 
+		},
+		{ dir: "ApiDemos",
+		  title : "Translucent Activity",
+		  files: ["src/com/example/android/apis/app/TranslucentActivity.java",                         
+                          "res/layout/translucent_background.xml"
+		         ] 
 		},		  
 		{ dir: "HelloActivity6",
 		  title : "Passing data",
@@ -62,7 +68,7 @@
 		         ]
 	        },
 		{ dir: "Notepadv3" ,
-		  title     : "Saving global state",
+		  title  : "Saving global state",
 		  files: ["src/com/android/demo/notepad3/NoteEdit.java",
                           "src/com/android/demo/notepad3/Notepadv3.java",
 			  "src/com/android/demo/notepad3/NotesDbAdapter.java",
@@ -72,17 +78,27 @@
 			  "res/values/strings.xml"
 		         ]
 	        }
+		
 		  
 	     ]
  },
 	       
  { section: "Service",
    items  : [   { dir:  "HelloService",
-                  title   : "Hello Service",
+                  title  : "Local Service",
 		  files: ["src/com/android/example/helloworld/HelloActivity.java",
                           "src/com/android/example/helloworld/HelloService.java",
                           "res/values/strings.xml",
                           "res/layout/main.xml"
+		         ] 
+		},
+		{ dir:  "HelloService",
+                  title  : "Remote Service",
+		  files: ["src/com/example/android/apis/app/RemoteService.java",
+                          "src/com/example/android/apis/app/RemoteServiceBinding.java",
+                          "src/com/example/android/apis/app/RemoteServiceController.java",
+                          "res/layout/remote_service_binding.xml",
+			  "res/layout/remote_service_controller.xml"
 		         ] 
 		},
             ]
@@ -104,19 +120,19 @@
    items    : [ {  dir: "ApiDemos" ,
                    title: "Dialog Activity", 
 		   files: ["src/com/example/android/apis/app/DialogActivity.java",
-                           "res/any/layout/dialog_activity.xml",                          
+                           "res/layout/dialog_activity.xml",                          
 		          ]
 		},
                 {  dir: "ApiDemos" ,
                    title: "Custom Dialog Activity", 
 		   files: ["src/com/example/android/apis/app/CustomDialogActivity.java",
-                           "res/any/layout/custom_dialog_activity.xml",                          
+                           "res/layout/custom_dialog_activity.xml",                          
 		          ]
 		},
                 {  dir: "ApiDemos" ,
                    title: "Various AlertDialogs", 
 		   files: ["src/com/example/android/apis/app/AlertDialogSamples.java",
-                           "res/any/layout/alert_dialog.xml",                          
+                           "res/layout/alert_dialog.xml",                          
 		          ]
 		},
               ]
@@ -128,8 +144,8 @@
                    title: "Hello Notifications", 
 		   files: ["src/com/example/android/apis/app/IncomingMessage.java",
 		           "src/com/example/android/apis/app/IncomingMessageView.java",
-                           "res/any/layout/incoming_message.xml",
-			   "res/any/layout/incoming_message_view.xml",                          
+                           "res/layout/incoming_message.xml",
+			   "res/layout/incoming_message_view.xml",                          
 		          ]
 		},
                
@@ -151,11 +167,35 @@
  
    items    : [ 
                 {  dir:  "ApiDemos",
+                   title  : "Preferences from XML",
+		   files: ["src/com/example/android/apis/app/PreferencesFromXml.java",
+                           "res/xml/preferences.xml",                           
+		          ]
+		},
+		{  dir:  "ApiDemos",
+                   title  : "Preferences from Code",
+		   files: ["src/com/example/android/apis/app/PreferencesFromCode.java",
+                           "res/values/strings.xml",                           
+		          ]
+		}, 
+                {  dir:  "ApiDemos",
                    title  : "Setting Default Values",
 		   files: ["src/com/example/android/apis/app/DefaultValues.java",
                            "res/xml/default_values.xml",                           
 		          ]
 		},
+		{  dir:  "ApiDemos",
+                   title  : "Preference Dependencies",
+		   files: ["src/com/example/android/apis/app/PreferenceDependencies.java",		           
+                           "res/xml/preference_dependencies.xml",                           
+		          ]
+		},
+		{ dir: "ApiDemos" ,
+		  title  : "Preferences to save state",
+		  files: ["src/com/example/android/apis/app/PersistentState.java",
+                          "/res/layout/save_restore_state.xml"
+		         ]
+	        },
                 {  dir:  "ApiDemos",
                    title  : "Advanced Preferences",
 		   files: ["src/com/example/android/apis/app/LaunchingPreferences.java",
@@ -163,6 +203,7 @@
                            "res/xml/advanced_preferences.xml",                           
 		          ]
 		},
+		
               ]
 	       
  },
@@ -173,7 +214,7 @@
 		   files: ["src/com/example/android/apis/app/AlarmController.java",
                            "src/com/example/android/apis/app/OneShotAlarm.java", 
 			   "src/com/example/android/apis/app/RepeatingAlarm.java",
-			   "res/any/layout/alarm_controller.xml",                          
+			   "res/layout/alarm_controller.xml",                          
 		          ]
 		},
 		{  dir:  "ApiDemos",
